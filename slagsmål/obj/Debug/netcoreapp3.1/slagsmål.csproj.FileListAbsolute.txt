@@ -1,0 +1,13 @@
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\bin\Debug\netcoreapp3.1\slagsmål.exe
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\bin\Debug\netcoreapp3.1\slagsmål.deps.json
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\bin\Debug\netcoreapp3.1\slagsmål.runtimeconfig.json
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\bin\Debug\netcoreapp3.1\slagsmål.runtimeconfig.dev.json
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\bin\Debug\netcoreapp3.1\slagsmål.dll
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\bin\Debug\netcoreapp3.1\slagsmål.pdb
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.csprojAssemblyReference.cache
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.AssemblyInfoInputs.cache
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.AssemblyInfo.cs
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.dll
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.pdb
+C:\Users\Adam\Documents\school_code\PRPRPR01\Slagsmål\slagsmål\obj\Debug\netcoreapp3.1\slagsmål.genruntimeconfig.cache
