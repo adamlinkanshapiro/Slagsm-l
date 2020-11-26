@@ -7,33 +7,70 @@ namespace slagsmål
         static void Main(string[] args)
         {
 
-            string name;
+
             string start;
-            inte hp = 180;
+            int hp = 180;
 
             Console.ForegroundColor = ConsoleColor.Red;
 
             System.Console.WriteLine(@" 
-            
-______  _         _      _      __                                            _  _   __       
-|  ___|(_)       | |    | |    / _|                                          | |(_) / _|      
-| |_    _   __ _ | |__  | |_  | |_   ___   _ __   _   _   ___   _   _  _ __  | | _ | |_   ___ 
-|  _|  | | / _` || '_ \ | __| |  _| / _ \ | '__| | | | | / _ \ | | | || '__| | || ||  _| / _ \
-| |    | || (_| || | | || |_  | |  | (_) || |    | |_| || (_) || |_| || |    | || || |  |  __/
-\_|    |_| \__, ||_| |_| \__| |_|   \___/ |_|     \__, | \___/  \__,_||_|    |_||_||_|   \___|
-            __/ |                                  __/ |                                      
-           |___/                                  |___/                                       
-                                                                                              
+
+__                       __                                                 
+|  |()       | |    | |    / |                                          | |() / |
+| |        _ | |  | |  | |                           | |  | |    
+|  |  | | / ` || ' \ | | |  | /  \ | '| | | | | / _ \ | | | || '| |    | /  \
+| |    |  (_|  | |  |  | |  | ()  |    | || || ()  |_|  |    |   |  |  /
+_|    || _, ||| || _| ||   _/ ||     _, | _/  _,|    ||||   _|
+            / |                                  / |
+           |/                                  |/
+
         ");
 
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("What is you name?");
 
-            name = Console.ReadLine();
-            
-            Console.WriteLine("Hej" + name + "är du redo?");
-            Console.WriteLine("Skriv starta för att börja spelet");
-            start = Console.ReadLine();
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Hej " + name + " är du redo?");
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Current HP = 100");
+
+            Console.WriteLine("tryck enter för att börja spelet");
+            Console.ReadLine();
+
+            int nHp = 100;
+            int mHp = 100;
+
+            while (nHp > 0 && mHp > 0)
+
+            {
+                System.Console.WriteLine("You have " + nHp + "HP.\n" + "The monster has " + mHp + "HP.");
+
+                Console.WriteLine("Choose between knife and sword");
+                string weapon = Console.ReadLine().ToLower();
+
+                Random generator = new Random();
+
+                int knife = generator.Next(5, 20);
+                int sword = generator.Next(10, 15);
+                int monster = generator.Next(5, 20);
+
+                if (weapon == "knife")
+                {
+                    System.Console.WriteLine("You slice the monster.");
+                    mHp -= knife;
+
+                    System.Console.WriteLine("the moster attacks you!");
+                    nHp -= monster;
+                }
+            }
+
+
+
+
+
+
 
 
 
